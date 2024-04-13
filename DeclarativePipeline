@@ -1,14 +1,3 @@
-успешно установил при помощи тераформ и установил ПО
-![alt text](image-1.png)
-докачал модуль command-launcher и подключил агента
-![alt text](image-3.png)
-подключился к git настроив ssh ключи
-![alt text](image.png)
-1.выполнен код"Собрать сейчас"
-![alt text](image-4.png)
-![alt text](image-6.png)
-![alt text](image-5.png)
-2.
 pipeline {
     agent any
 
@@ -38,5 +27,3 @@ pipeline {
         }
     }
 }
-![alt text](image-7.png)
-3.
