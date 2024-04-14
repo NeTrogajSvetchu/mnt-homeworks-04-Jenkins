@@ -110,13 +110,13 @@
           - selinux
           - ansible<3.0
         state: present
-    - name: Reinstall Selinux
-      become_user: root
-      pip:
-        executable: pip3
-        name:
-          - selinux
-        state: forcereinstall
+    #- name: Reinstall Selinux
+    #  become_user: root
+    #  pip:
+    #    executable: pip3
+    #    name:
+    #      - selinux
+    #    state: forcereinstall 
     - name: Add local to PATH
       lineinfile:
         dest: ~/.bashrc

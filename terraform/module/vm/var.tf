@@ -56,7 +56,7 @@ variable "scheduling_policy" {
 
 variable "vm_family" {
   type = string
-  default = "centos-7-oslogin"
+  default = "centos-stream-8" #"centos-7-oslogin"
 }
 
 variable "name" {
